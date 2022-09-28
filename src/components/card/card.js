@@ -1,10 +1,10 @@
 import React from "react";
 import { CardBody } from "./CardBody";
-import { QrCode } from "./qr-code";
+import { QrCode } from "./QrCode";
 
 export const Card = () => {
   return (
-    <div className="card">
+    <div className="c-card">
       <QrCode />
       <CardBody />
     </div>

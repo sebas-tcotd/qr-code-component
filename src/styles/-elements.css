@@ -1,5 +1,16 @@
 @import url("-settings.css");
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
 main {
-   background-color: var(--background-color);
-   height: 100vh;
+  background-color: var(--background-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
