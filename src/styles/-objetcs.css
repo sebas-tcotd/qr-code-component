@@ -1,0 +1,4 @@
+@import url("-settings.css");
+.o-background {
+   background-color: var(--background-color); 
+}

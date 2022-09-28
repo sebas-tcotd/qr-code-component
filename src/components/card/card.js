@@ -4,7 +4,7 @@ import { QrCode } from "./qr-code";
 
 export const Card = () => {
   return (
-    <div className="">
+    <div className="card">
       <QrCode />
       <CardBody />
     </div>

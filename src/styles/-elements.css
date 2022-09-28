@@ -1,0 +1,5 @@
+@import url("-settings.css");
+main {
+   background-color: var(--background-color);
+   height: 100vh;
+}

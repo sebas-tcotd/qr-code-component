@@ -2,7 +2,7 @@ import { Card } from "./components/card/card";
 
 function App() {
   return (
-    <main className="">
+    <main>
       <Card />
     </main>
   );

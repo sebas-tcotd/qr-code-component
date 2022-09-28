@@ -1,6 +1,15 @@
 :root {
+  /* Colors */
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(212, 45%, 89%);
   --grayish-blue: hsl(220, 15%, 55%);
   --dark-blue: hsl(218, 44%, 22%);
+
+  --background-color: var(--light-gray);
+  --text-color: var(--dark-blue);
+
+  /* Typography */
+  --fs-base: 15px;
+
+  --fs-24: calc(24 / var(--fs-base) rem);
 }
