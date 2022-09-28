@@ -14,3 +14,9 @@ main {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 }
+@media screen and (min-width: 480px) {
+  main {
+    flex-direction: row;
+    align-items: center;
+  }
+}
