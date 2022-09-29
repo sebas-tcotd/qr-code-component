@@ -1,0 +1,29 @@
+.c-card {
+  margin: 0 var(--sp-24);
+  padding: var(--sp-16);
+  background-color: var(--white);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--sp-16);
+  -webkit-box-shadow: 0px 5px 58px -7px rgba(123, 135, 157, 0.46);
+  -moz-box-shadow: 0px 5px 58px -7px rgba(123, 135, 157, 0.46);
+  box-shadow: 0px 5px 58px -7px rgba(123, 135, 157, 0.46);
+}
+@media screen and (min-width: 480px) {
+  .c-card {
+    width: 19.5rem;
+  }
+}
+.c-card__head {
+  border-radius: var(--sp-8);
+}
+.c-card__body {
+  padding: var(--sp-8) var(--sp-16);
+  text-align: center;
+}
+.c-card__title {
+  margin: var(--sp-16) 0;
+  color: var(--dark-blue);
+  font-size: var(--fs-24);
+}

@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  /* Colors */
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: rgb(123, 135, 157);
+  --dark-blue: hsl(218, 44%, 22%);
+
+  --background-color: var(--light-gray);
+  --text-color: var(--grayish-blue);
+  --text-dark: var(--dark-blue);
+  --shadow-color: var(--grayish-blue);
+
+  /* Typography */
+  --fs-base: 15px;
+
+  --fs-24: 1.438rem;
+
+  /* Spacing */
+  --sp-base: 0.5rem;
+
+  --sp-8: var(--sp-base);
+  --sp-16: calc(var(--sp-base) * 2);
+  --sp-24: calc(var(--sp-base) * 3);
+  --sp-32: calc(var(--sp-base) * 4);
+}
